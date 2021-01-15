@@ -1,0 +1,57 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,hr,ul,ol,td,input,option,textarea{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "微软雅黑";
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+.usernav{
+    width: 100%;
+    height: 31px;
+    background-color: #f8f8f8;
+    font-size: 12px;
+    #userControl{
+        width: 1200px;
+        height: 31px;
+        margin: 0 auto;
+            ul{
+            // width: 300px;
+            float: left;
+            // padding-left: 11px; 
+            // overflow: hidden;
+                li{
+                    float: left;
+                    line-height: 31px;
+                    margin-left: 21px;
+                    span{
+                        font-size: 2px;
+                        color: #cccccc;
+                    }
+                    :nth-child(3){
+                        display: none;
+                    }
+                    a{
+                        color: #888888;
+                    }
+                }
+                :nth-child(3){
+                    a{
+                        color:  #c10fd9;
+                    }
+                    span {
+                        color: red;
+                    }
+                }
+                
+            }
+    }
+}
